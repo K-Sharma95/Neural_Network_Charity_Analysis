@@ -1,5 +1,6 @@
 # Neural_Network_Charity_Analysis
-Overview of the analysis: Explain the purpose of this analysis.
+## Overview
+This repository contains data from over 34,000 organizations that have received funding from Alphabet Soup, with information describing the status and uses of this funding. This data is used to create a neural network model using Tensorflow for the purpose of accurate classification.
 
 Results: Using bulleted lists and images to support your answers, address the following questions.
 
