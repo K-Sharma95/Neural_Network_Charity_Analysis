@@ -1,9 +1,24 @@
 # Neural_Network_Charity_Analysis
-Overview of the analysis: Explain the purpose of this analysis.
+## Overview
+This repository contains data from over 34,000 organizations that have received funding from Alphabet Soup, with information describing the status and uses of this funding. This data is used to create a neural network model using Tensorflow and keras for the purpose of accurate classification. The performance of this model will be discussed and then optimized. 
 
-Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results
 
-Data Preprocessing
+### - **Data Processing**
+What variable(s) are considered the target(s) for your model?
+What variable(s) are considered to be the features for your model?
+What variable(s) are neither targets nor features, and should be removed from the input data?
+
+
+
+### - **Compiling, Training and Evaluating the Model**
+As observed in [AlphabetSoupCharity.ipynb](https://github.com/K-Sharma95/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) the original characteristics of the model are two hidden layers, with 80 and 30 neurons respectively. The two layers are activated using the relu function, and the sigmoid function is used on the output layer. These inputs achieved an accuracy score of 72.5%, short of the goal of 75% accuracy. 
+
+### - **Optimization Techniques**
+Three steps/techniques were implemented in order to optimize this model, located in [AlphabetSoupCharity_Optimization.ipynb](
+
+
+
 What variable(s) are considered the target(s) for your model?
 What variable(s) are considered to be the features for your model?
 What variable(s) are neither targets nor features, and should be removed from the input data?
