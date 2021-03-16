@@ -5,9 +5,14 @@ This repository contains data from over 34,000 organizations that have received 
 ## Results
 
 ### - **Data Processing**
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
+- What variable(s) are considered the target(s) for your model?
+The target variable in this data-set is the "Is_Successful" column. 
+
+- What variable(s) are considered to be the features for your model?
+The featurs of the model include [these columns.](https://github.com/K-Sharma95/Neural_Network_Charity_Analysis/blob/main/Resources/features.png)
+ 
+- What variable(s) are neither targets nor features, and should be removed from the input data?
+The columns "EIN" and "NAME" are not necessary and were removed. 
 
 
 
@@ -20,12 +25,5 @@ Three steps/techniques were implemented in order to optimize this model, located
 
 
 
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
-
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+### - Summary
+Given the fact that I did not achieve my target accuracy, more consideration needs to be done for this model. The dataset provided is vast and I need to reconsider its characteristics, and the features being used. With a better understanding of my values I can accurately build my neuron layers to match and sleect the most appropriate activation function. I also believe that perhaps I should run the model using all of the features, and then test out removing some more data and see if that results in a more accurate model. 
