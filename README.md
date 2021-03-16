@@ -6,12 +6,15 @@ This repository contains data from over 34,000 organizations that have received 
 
 ### - **Data Processing**
 - What variable(s) are considered the target(s) for your model?
+
 The target variable in this data-set is the "Is_Successful" column. 
 
 - What variable(s) are considered to be the features for your model?
+
 The featurs of the model include [these columns.](https://github.com/K-Sharma95/Neural_Network_Charity_Analysis/blob/main/Resources/features.png)
  
 - What variable(s) are neither targets nor features, and should be removed from the input data?
+
 The columns "EIN" and "NAME" are not necessary and were removed. 
 
 
